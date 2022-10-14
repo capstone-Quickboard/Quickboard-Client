@@ -36,34 +36,6 @@
             </objects>
             <point key="canvasLocation" x="48" y="-2"/>
         </scene>
-        <!--공지사항-->
-        <scene sceneID="R3K-MC-dYP">
-            <objects>
-                <viewController id="i2i-Ls-cVt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="neI-t7-seI">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공지사항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64I-At-eeS">
-                                <rect key="frame" x="158.66666666666666" y="409" width="73" height="26"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="weI-7E-5yJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="64I-At-eeS" firstAttribute="centerX" secondItem="neI-t7-seI" secondAttribute="centerX" id="O34-vQ-4Aq"/>
-                            <constraint firstItem="64I-At-eeS" firstAttribute="centerY" secondItem="neI-t7-seI" secondAttribute="centerY" id="aXC-D5-Vlr"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="공지사항" image="line.3.horizontal" catalog="system" id="zhL-2C-fdr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LSE-bm-2YT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="797" y="808"/>
-        </scene>
         <!--더보기-->
         <scene sceneID="cHE-UM-95X">
             <objects>
@@ -243,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Num-BT-gA7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1570.7692307692307" y="807.58293838862551"/>
+            <point key="canvasLocation" x="1571" y="833"/>
         </scene>
         <!--Privacy View Controller-->
         <scene sceneID="XMP-6Z-vAt">
@@ -506,34 +478,6 @@
             </objects>
             <point key="canvasLocation" x="2361.5384615384614" y="1544.7867298578199"/>
         </scene>
-        <!--홈-->
-        <scene sceneID="872-Aj-NBL">
-            <objects>
-                <viewController id="s2x-zi-lI6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cHr-jS-7wW">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="홈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="es3-ps-1DT">
-                                <rect key="frame" x="186" y="409" width="18.333333333333343" height="26"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="tkw-Us-okG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="es3-ps-1DT" firstAttribute="centerX" secondItem="cHr-jS-7wW" secondAttribute="centerX" id="SeJ-5F-t2T"/>
-                            <constraint firstItem="es3-ps-1DT" firstAttribute="centerY" secondItem="cHr-jS-7wW" secondAttribute="centerY" id="nq5-GK-YL9"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" id="6m9-ZN-5sv"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SS6-85-N46" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="48" y="808"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xuw-Vg-PAV">
             <objects>
@@ -546,8 +490,8 @@
                         <color key="selectedImageTintColor" name="SSUMediumBlue"/>
                     </tabBar>
                     <connections>
-                        <segue destination="s2x-zi-lI6" kind="relationship" relationship="viewControllers" id="c2j-Li-cnd"/>
-                        <segue destination="i2i-Ls-cVt" kind="relationship" relationship="viewControllers" id="6vF-Tj-Qgq"/>
+                        <segue destination="lLk-xf-84G" kind="relationship" relationship="viewControllers" id="T6y-a5-9yj"/>
+                        <segue destination="9G3-zQ-lZc" kind="relationship" relationship="viewControllers" id="Qub-zt-m2I"/>
                         <segue destination="05Y-p0-fhg" kind="relationship" relationship="viewControllers" id="s1d-In-hOB"/>
                     </connections>
                 </tabBarController>
@@ -555,19 +499,29 @@
             </objects>
             <point key="canvasLocation" x="797" y="-2"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Home-->
         <scene sceneID="JD3-42-UQy">
             <objects>
-                <viewControllerPlaceholder id="lLk-xf-84G" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Home" id="lLk-xf-84G" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Ibx-0k-Ri6"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Fd-yA-anv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1610" y="234"/>
+            <point key="canvasLocation" x="48" y="543"/>
+        </scene>
+        <!--Notice-->
+        <scene sceneID="MjS-DW-VAP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Notice" id="9G3-zQ-lZc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fx4-8S-RdG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gzr-j7-z7n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797" y="542"/>
         </scene>
     </scenes>
     <resources>
         <image name="ellipsis" catalog="system" width="128" height="37"/>
-        <image name="house" catalog="system" width="128" height="104"/>
-        <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="AlreadyChecked">
             <color red="0.63099998235702515" green="0.63099998235702515" blue="0.63099998235702515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
